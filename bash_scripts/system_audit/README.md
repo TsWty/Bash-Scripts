@@ -15,9 +15,9 @@ This script performs a comprehensive system audit, collecting various security a
 - `sudo` access for viewing `/etc/sudoers`.
 
 ## Usage
-
 1. Make executable:
 ```bash
 chmod +x system_audit.sh
-Run the script:
 ./system_audit.sh
+```
+Rapor `~/system_audit_report.txt` dosyasına kaydedilir.

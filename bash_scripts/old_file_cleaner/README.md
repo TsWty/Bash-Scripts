@@ -1,4 +1,3 @@
-
 # Old File Cleaner Script
 
 This Bash script deletes files in a specified directory that haven’t been accessed for a set number of days.
@@ -14,5 +13,6 @@ This Bash script deletes files in a specified directory that haven’t been acce
 1. Make the script executable:
 ```bash
 chmod +x old_file_cleaner.sh
-Run the script manually or via cron:
 ./old_file_cleaner.sh
+```
+İsterseniz cron ile düzenli çalıştırabilirsiniz.

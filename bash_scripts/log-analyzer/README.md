@@ -18,3 +18,6 @@ This Bash script analyzes a system log file and provides insights into errors.
 1. Make executable:
 ```bash
 chmod +x log_analyzer.sh
+./log_analyzer.sh
+```
+Rapor `error_stats_report.txt` dosyasına kaydedilecektir.

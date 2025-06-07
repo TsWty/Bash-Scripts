@@ -14,7 +14,9 @@ This script monitors failed SSH login attempts and automatically blocks IPs that
 - Linux system with `iptables`.
 
 ## Usage
-
 1. Make executable:
 ```bash
 chmod +x ssh_guard.sh
+./ssh_guard.sh
+```
+Script arka planda çalıştırılabilir veya cron ile tetiklenebilir.
