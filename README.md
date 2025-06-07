@@ -14,6 +14,9 @@ Bu depo çeşitli sistem yönetim görevlerini otomatikleştiren Bash scriptleri
 - `sys_dashboard` - Terminalde canlı sistem kaynaklarını gösterir.
 - `system_audit` - Ayrıntılı sistem denetim raporu üretir.
 - `uptime_monitor` - Uptime ve performans bilgilerini kaydeder.
+- `disk_usage_alert` - Disk kullanım eşiğini aşınca uyarı verir.
+- `memory_monitor` - Bellek kullanımını günlükler.
+- `service_status_checker` - Belirli servislerin durumunu kontrol eder
 
 Her script için önce çalıştırma izni verip ardından scripti başlatabilirsiniz:
 ```bash
