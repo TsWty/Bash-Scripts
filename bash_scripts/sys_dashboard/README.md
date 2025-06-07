@@ -14,9 +14,9 @@ A live-updating terminal dashboard to monitor CPU, memory, disk usage, and top p
 - `top`, `awk`, `df`, `ps` (available on most Unix systems)
 
 ## Usage
-
 1. Make the script executable:
 ```bash
 chmod +x sys_dashboard.sh
-Run the script:
 ./sys_dashboard.sh
+```
+Çıkmak için `CTRL+C` kullanın.
