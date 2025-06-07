@@ -8,3 +8,9 @@ This Bash script pings a specified host (default is 8.8.8.8) and logs the result
 - Logs timestamped results.
 - Indicates success or failure of the connection.
 
+## Usage
+```bash
+chmod +x ping_monitor.sh
+./ping_monitor.sh 8.8.8.8
+```
+Hedef belirtilmezse varsayılan `8.8.8.8` kullanılır.

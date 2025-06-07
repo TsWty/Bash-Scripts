@@ -10,7 +10,9 @@ This script logs system uptime, load average, and memory usage into a text file 
 - Appends information to a persistent log file.
 
 ## Usage
-
 1. Make the script executable:
 ```bash
 chmod +x uptime_monitor.sh
+./uptime_monitor.sh
+```
+Log dosyası `~/uptime_performance_log.txt` içinde tutulur.

@@ -13,3 +13,6 @@ This Bash script creates a timestamped `.tar.gz` archive of your `Documents` fol
 1. Make the script executable:
 ```bash
 chmod +x backup_script.sh
+./backup_script.sh
+```
+Yedekler `~/Backups` klasörüne kaydedilir.
