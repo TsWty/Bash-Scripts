@@ -23,7 +23,8 @@ export HOST
 START_TIME=$(date +%s)
 
 # use xargs to manage parallel scanning
-seq $START_PORT $END_PORT | xargs -n1 -P$MAX_JOBS -I{} bash -c 'scan_port "$@"' _ {}
+# -I already implies -n1 so we omit -n1 to avoid warnings
+seq $START_PORT $END_PORT | xargs -P "$MAX_JOBS" -I{} bash -c 'scan_port "$1"' _ {}
 
 END_TIME=$(date +%s)
 DURATION=$((END_TIME - START_TIME))
