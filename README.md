@@ -16,7 +16,7 @@ Bu depo çeşitli sistem yönetim görevlerini otomatikleştiren Bash scriptleri
 - `uptime_monitor` - Uptime ve performans bilgilerini kaydeder.
 - `disk_usage_alert` - Disk kullanım eşiğini aşınca uyarı verir.
 - `memory_monitor` - Bellek kullanımını günlükler.
-- `service_status_checker` - Belirli servislerin durumunu kontrol eder.
+- `service_status_checker` - Belirli servislerin durumunu kontrol eder
 
 Her script için önce çalıştırma izni verip ardından scripti başlatabilirsiniz:
 ```bash
