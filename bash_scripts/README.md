@@ -1,1 +1,1 @@
-Bu klasör, çeşitli Bash scriptlerini içerir. Her alt dizindeki README dosyasında scriptlerin kullanımı açıklanmaktadır.
+This folder contains various Bash scripts. Each subdirectory includes a README that explains how to use the scripts.

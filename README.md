@@ -1,27 +1,27 @@
-# Bash-Scripts
+# Bash Scripts
 
-Bu depo çeşitli sistem yönetim görevlerini otomatikleştiren Bash scriptlerini içerir.
+This repository contains Bash scripts that automate common system administration tasks.
 
-## Dizinler
+## Directories
 
-- `backup-script` - Belgeler klasörünün yedeğini alır.
-- `firewall-visualizer` - Mevcut firewall kurallarını raporlar.
-- `log-analyzer` - Sistem günlüklerini analiz eder.
-- `old_file_cleaner` - Kullanılmayan eski dosyaları temizler.
-- `ping_monitor` - Belirli bir hosta ping atıp sonucu kaydeder.
-- `port_scanner` - Hedef makinada port taraması yapar.
-- `ssh_guard` - Başarısız SSH girişlerini izler ve IP engeller.
-- `sys_dashboard` - Terminalde canlı sistem kaynaklarını gösterir.
-- `system_audit` - Ayrıntılı sistem denetim raporu üretir.
-- `uptime_monitor` - Uptime ve performans bilgilerini kaydeder.
-- `disk_usage_alert` - Disk kullanım eşiğini aşınca uyarı verir.
-- `memory_monitor` - Bellek kullanımını günlükler.
-- `service_status_checker` - Belirli servislerin durumunu kontrol eder
+- `backup-script` - Backs up the Documents folder.
+- `firewall-visualizer` - Reports current firewall rules.
+- `log-analyzer` - Analyzes system log files.
+- `old_file_cleaner` - Deletes unused old files.
+- `ping_monitor` - Pings a host and logs the result.
+- `port_scanner` - Performs a port scan on a target machine.
+- `ssh_guard` - Monitors failed SSH logins and blocks IPs.
+- `sys_dashboard` - Displays live system resource usage in the terminal.
+- `system_audit` - Generates a detailed system audit report.
+- `uptime_monitor` - Records uptime and performance data.
+- `disk_usage_alert` - Alerts when disk usage exceeds a threshold.
+- `memory_monitor` - Logs memory usage.
+- `service_status_checker` - Checks the status of selected services.
 
-Her script için önce çalıştırma izni verip ardından scripti başlatabilirsiniz:
+To run a script, first grant execute permission and then run it:
 ```bash
-chmod +x script_adi.sh
-./script_adi.sh
+chmod +x script_name.sh
+./script_name.sh
 ```
 
-Bu proje MIT lisansı ile dağıtılmaktadır. Ayrıntılar için `LICENSE` dosyasına göz atın.
+This project is distributed under the MIT License. See the `LICENSE` file for details.
