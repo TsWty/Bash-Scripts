@@ -1,8 +1,8 @@
 # Firewall Rules Visualizer
 
-Bu script iptables, ip6tables ve mevcutsa nftables kurallarını raporlamak için kullanılır. Çıktı `firewall_rules_report.txt` dosyasına kaydedilir.
+This script reports iptables, ip6tables, and, if present, nftables rules. The output is saved to `firewall_rules_report.txt`.
 
-## Kullanım
+## Usage
 ```bash
 chmod +x firewall_visualizer.sh
 ./firewall_visualizer.sh
