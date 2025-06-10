@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Array of services to check
 SERVICES=("ssh" "cron")
 
 for service in "${SERVICES[@]}"; do

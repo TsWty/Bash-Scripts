@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Ensure 'tput' is available for screen clearing
 clear_screen() {
   tput reset
 }
